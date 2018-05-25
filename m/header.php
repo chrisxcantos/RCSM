@@ -59,25 +59,29 @@
         margin-top: 20%;
         width: 100%;
         height: 10%;
-        transition: .3s;
+        transition: .4s;
     }   
     .bar1{ margin-top: 20%;}
-
+    
+/*    .bar1{      transform: rotate(-45deg) translate(-20px, 15px);     }
+    .bar3{   transform: rotate(45deg) translate(-20px, -15px);}*/
+    
     .change .bar1 {
         -webkit-transform: rotate(-45deg) translate(-15px, 15px);
-          transform: rotate(-45deg) translate(-15px, 15px);
+          transform: rotate(-45deg) translate(-20px, 15px);
     }
 
     .change .bar2 {opacity: 0;}
 
     .change .bar3 {
         -webkit-transform: rotate(45deg) translate(-15px, -15px);
-        transform: rotate(45deg) translate(-15px, -15px);
+        transform: rotate(45deg) translate(-20px, -15px);
     }    
 </style>
 
 <script>
     var menuSwitch = 0;
+    setMenuMargin();
     $(document).ready(function(){
         scrollEffect();
         $('#menu-div').click(function(){toggleMainMenu();});
@@ -111,6 +115,11 @@
           else      {fixedDiv.style.opacity = '1';     }
     }    
     
+    function setMenuMargin(){
+        var xHeight = document.getElementById("menu-div").offsetHeight;
+        var mTop = xHeight * 0.30;
+        document.getElementById("menu-icon-box").style.marginTop = mTop;        
+    }
     
 </script>
     
