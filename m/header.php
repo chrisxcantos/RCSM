@@ -59,23 +59,23 @@
         margin-top: 20%;
         width: 100%;
         height: 10%;
-        transition: .4s;
+        transition: .3s;
     }   
     .bar1{ margin-top: 20%;}
     
 /*    .bar1{      transform: rotate(-45deg) translate(-20px, 15px);     }
-    .bar3{   transform: rotate(45deg) translate(-20px, -15px);}*/
+    .bar3{   transform: rotate(45deg) translate(-15px, -15px);}*/
     
     .change .bar1 {
-        -webkit-transform: rotate(-45deg) translate(-15px, 15px);
-          transform: rotate(-45deg) translate(-20px, 15px);
+        -webkit-transform: rotate(-45deg) translate(-18px, 15px);
+          transform: rotate(-45deg) translate(-18px, 15px);
     }
 
     .change .bar2 {opacity: 0;}
 
     .change .bar3 {
         -webkit-transform: rotate(45deg) translate(-15px, -15px);
-        transform: rotate(45deg) translate(-20px, -15px);
+        transform: rotate(45deg) translate(-15px, -15px);
     }    
 </style>
 
