@@ -5,7 +5,7 @@
 
 <style>
     #div-WeAreMariner{
-        width: 110%;
+        width: 90%;
         margin-left: 80px;
         padding-top: 10px;
         padding-bottom: 10px;

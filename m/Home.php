@@ -16,12 +16,11 @@
   </body>
 
 <style>
-    #Tab-title1{
-        width: 100%;
-        height: 110px;
-        background: #F0F0F0;
-    }
-    #weHave-div{ margin-top: 70px;    }
+
+
+    #greeting-div{width: 100%;}
+    #weHave-div{ margin-top: 70px; width: 100%;   }
+    
     #weAreMariner-div{
         background: darkslategrey; 
         width: 100%;
@@ -30,6 +29,7 @@
     }
     #Services-div{        
         background: #5e7a80;    
+        width: 100%;
         box-shadow: 5px 10px 20px darkgray,5px -10px 20px darkgray;
     }
 
@@ -38,7 +38,5 @@
         height:600px;
         background: #5e7a80;
     }    
-    
-    /*#list-tour td{ width: 30%;}*/
-    /*#Tour-div{background: lightgray;}*/
+
 </style>    

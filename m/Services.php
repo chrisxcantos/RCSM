@@ -33,13 +33,17 @@
         list-style-position: outside;
         margin-left: 13px;
     }    
-    #div-services{        transition: .4s;    }
+    #div-services{        
+        transition: .4s;   
+        width: 100%; 
+    }
+    
     #services-header{
         margin-top: 15px;
         color: lightgrey;
         font-size: 40px;
         margin-left: 60px; 
-        width: 100%;   }
+    }
     
     #services-text{       
         margin-left: 60px;
@@ -58,8 +62,8 @@
         width: 100%;
         height: 100%;
     }
-    table{width: 100%;}
-    #list-services td{ width: 30%;}
+    table{}
+    #list-services td{ width: 10%;}
     #list-services button{
         width: 100%;
         height: 100px;

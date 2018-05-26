@@ -1,6 +1,7 @@
 
 <div id='div-greeting'>
-  <label id='greeting-text'>Let the Rehab-Center of Santa Monica Navigate You to Wellness
+  <label id='greeting-text'>
+      Let the Rehab-Center of Santa Monica Navigate You to Wellness
   </label>  
 </div>  
 
@@ -12,11 +13,9 @@
     }
     #div-greeting{
         font-size: 50px;
-        width: 110%;
+        width: 100%;
         height: 140px;
         background: #5e7a80;
-        /*background-image: url("../images/stMonica2.jpeg");*/
-        background-size: 100% 100%;
         box-shadow: 10px 10px 10px lightgrey;
         color: lightyellow;
         font-family: 'Helvetica-Regular';
