@@ -10,13 +10,13 @@
         </center>
     </div>
     <div id='title-div'>
-        <div>
-        <center> 
-            <div id='title-box'>  
+        <div><img src="../images/RCSM_logo.png" id="rcsm-logo">
+        <!--<center>--> 
+            <div id='title-box'>
                 <span id='main-title'>The Rehab-Center </span><br>
                 <span id='sub-title'>of Santa Monica</span>
             </div>
-        </center>
+        <!--</center>-->
         </div>    
     </div>
 </div>
@@ -38,19 +38,28 @@
         height: 150px;
         float:left;
         color: white;
-        border: 1px solid gray;
+        border: 3px solid gray;
     }
-
+    #rcsm-logo{
+        float:left;
+        margin-top: 15px;
+    }
+    
     #title-div{
         width: 80%;
         height: 100%;
         float:left;
         border: 1px solid gray;
     }
-    #main-title{        font-size: 140%;    }
-    #sub-title {        font-size: 90%;     }
-    #menu-home {        margin-top: 4%;
-                        font-size: 150%;    }    
+    #main-title{        
+        margin-left: 15px;
+        font-size: 140%;    
+    }
+    #sub-title {        
+        font-size: 90%; 
+        margin-left: 20px;
+    }
+
     #menu-icon-box{     margin-top: 25%;
                         height: 40%;
                         width: 40%;         }
