@@ -43,6 +43,7 @@
         color: lightgrey;
         font-size: 40px;
         margin-left: 60px; 
+        width: 100%;
     }
     
     #services-text{       
